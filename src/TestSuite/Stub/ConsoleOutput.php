@@ -59,7 +59,7 @@ class ConsoleOutput extends ConsoleOutputBase
             $newlines--;
         }
 
-        return 0;
+        return strlen($message);
     }
 
     /**
